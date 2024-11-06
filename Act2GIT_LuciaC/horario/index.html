@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <!--Relacionamos la página de la tabla con la de estilos-->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Introducimos las fuentes de letra-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <title>Horario</title>
+</head>
+
+<body>
+    <h1>Horario</h1>
+    <table>
+        <thead>
+            <tbody>
+               <!--Abrimos la primera fila de la tabla -->
+                <tr>
+                    <!--Creamos las columnas de la tabla-->
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <!--Cerramos la primera fila de la tabla -->
+                <tr>
+                    <td>8:15-9:15</td>
+                    <td class="programacion"  rowspan="2">Programación</td>
+                    <td class="ipe">IPE I</td>
+                    <td class="entornos"  rowspan="2">Entornos de desarrollo</td>
+                    <td class="programacion"  rowspan="2">Programación</td>
+                    <td class="bbdd"  rowspan="2">Base de datos</td>  
+                </tr>
+                <tr>
+                    <td>9:15-10:15</td>
+                    <td class="entornos">Entornos de desarrollo</td>
+                </tr>
+                <tr>
+                    <td>10:15-11:15</td>
+                    <td class="bbdd">Base de datos</td>
+                    <td class="llmm">Lenguajes de marcas</td>
+                    <td class="bbdd">Base de datos</td>
+                    <td class="ipe">IPE I</td>
+                    <td class="sostenibilidad">Sostenibilidad</td>
+                </tr>
+                <tr>
+                    <td>11:15-11:45</td>
+                    <th colspan="5" class="recreo"><b>Recreo</b></th>
+                </tr>
+                <tr>
+                    <td>11:45-12:45</td>
+                    <td class="bbdd">Base de datos</td>
+                    <td class="programacion" rowspan="3">Programación</td>
+                    <td class="bbdd">Base de datos</td>
+                    <td class="llmm" rowspan="2">Lenguajes de marcas</td>
+                    <td class="ipe">IPE I</td>
+                </tr>
+                <tr>
+                    <td>12:45-13:45</td>
+                    <td class="sistemasInf" rowspan="2">Sistemas informáticos</td>
+                    <td class="sistemasInf" rowspan="2">Sistemas informáticos</td>
+                    <td class="sistemasInf">Sistemas informáticos</td>
+                </tr>
+                <tr>
+                    <td>13:45-14:45</td>
+                    <td class="digitalizacion">Digitalización</td>
+                    <td class="programacion">Programación</td>
+                </tr>
+                <tr>
+                    <td class="enlace" colspan="6"> Para obtener información sobre las asignaturas pinche aquí: <a href="https://moodle.iespablopicasso.es/" target="_blank">Moodle</a></td>
+                </tr>  
+            </tbody>
+    </table>
+</body>
+</html>

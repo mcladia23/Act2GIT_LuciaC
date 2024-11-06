@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(#eedd99,#ec7063);
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+table, tr,td,th {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+table {
+    height: 80px;
+    margin: auto;
+    width:80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(247, 238, 228);
+    font-family: "Metal", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th {
+    background-color: #f0f0d8;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 15px;  
+}
+  
+td{
+    padding: 11px;
+}
+
+.programacion {
+    background-color:#eec290;
+    color:#894c07;
+}
+
+.recreo {
+    color: #95392f;
+    padding: 7px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 0px 0px 3px rgb(172, 63, 63);
+}
+
+.ipe {
+    background-color: #eeaa88;
+    color: #862f04;
+}
+
+.entornos {
+    background-color: #ccc68d;
+    color:#645b05;
+}
+
+.bbdd {
+    background-color: #e9e9e9;
+    color:#64828e;
+}
+
+.llmm {
+    background-color: #eedd99;
+    color:#aa8902;
+}
+
+.sistemasInf {
+    background-color: #ffd3b5;
+    color:#a13232;
+}
+
+.digitalizacion {
+    background-color:#ece5ce ;
+    color:#545149 ;
+}
+
+.sostenibilidad {
+    background-color: #bbbb88;
+    color:#343407;
+}
+
+.enlace {
+    color:rgb(152, 84, 7);
+    box-shadow: 0px 0px 30px rgb(174, 61, 61) inset;
+}
+
+a {
+    color:maroon;
+}
+
+a:hover {
+    background-color: maroon;
+    color:rgb(247, 238, 228);
+}
+
+h1 {
+    text-align: center;
+    color:#95392f ;
+    text-shadow: 0px 6px 5px rgb(59, 1, 1);
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
