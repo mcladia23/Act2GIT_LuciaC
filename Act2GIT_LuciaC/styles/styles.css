@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+
+footer {
+    background-color: brown;
+    height: 10vh;
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1{
+    color: brown;
+}
