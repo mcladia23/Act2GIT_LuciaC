@@ -3,12 +3,32 @@ body{
 }
 
 footer {
+    color: rgb(238, 212, 178);
     background-color: brown;
     height: 10vh;
     text-align: center;
-    margin-top: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+
 }
 
 h1{
     color: brown;
+}
+
+div {
+    height: 15vh;
+    background-color: tan;
+    display: grid;
+    place-items: center;
+    
+}
+
+p {
+    font-weight: bold;
 }
