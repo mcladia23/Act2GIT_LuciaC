@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: midnightblue;
+}
+
+footer {
+    color: rgb(238, 212, 178);
+    background-color:cornflowerblue;
+    height: 10vh;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+h3{
+    color:rgb(9, 50, 73);
+}
